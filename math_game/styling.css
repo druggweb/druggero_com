@@ -1,0 +1,240 @@
+html {
+	height: 100%;
+	background:	radial-gradient(circle, #fff, #ccc);
+	background: -webkit-radial-gradient(circle, #fff, #ccc);
+	background: -0-radial-gradient(circle, #fff, #ccc);
+	background: -moz-radial-gradient(circle, #fff, #ccc);
+}
+
+#container {
+	height: 610px;
+	width: 1100px;
+	background-color: #75A3B8;
+	margin: 90px auto;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 7px 5px 0px #1F417F;
+	-moz-box-shadow: 0px 7px 5px 0px #1F417F;
+	-webkit-box-shadow: 0px 7px 5px 0px #1F417F;
+	/* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color] */
+	position: relative;
+}
+
+#score {
+	background-color: #f1ff92;
+	color: #888e5f;
+	padding: 22px;
+	position: absolute;
+	left: 1020px;
+	box-shadow: 0px 6px 5px 0px #9da853;
+	-moz-box-shadow: 0px 6px 5px 0px #9da853;
+	-webkit-box-shadow: 0px 6px 5px 0px #9da853;
+}
+
+#correct {
+	position: absolute;
+	left: 530px;
+	background-color: #42e252;
+	color: white;
+	padding: 20px;
+	display: none;
+}
+
+#wrong {
+	position: absolute;
+	left: 530px;
+	background-color: #de401a;
+	color: white;
+	padding: 20px;
+	display: none;
+}
+
+#question {
+	width: 900px;
+	height: 210px;
+	margin: 80px auto 10px auto;
+	background-color: #9da0ea;
+	box-shadow: 0px 4px 5px 0px #535aa8;
+	-moz-box-shadow: 0px 4px 5px 0px #535aa8;
+	-webkit-box-shadow: 0px 4px 5px 0px #535aa8;
+	font-size: 190px;
+	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+	color: black;
+}
+
+#instruction {
+	width: 900px;
+	height: 100px;
+	background-color: #b481d9;
+	margin: 10px auto;
+	font-size: 35px;
+	text-align: center;
+	line-height: 95px;
+	box-shadow: 0px 4px 5px 0px #8153a8;
+	-moz-box-shadow: 0px 4px 5px 0px #8153a8;
+	-webkit-box-shadow: 0px 4px 5px 0px #8153a8;
+}
+
+#choices {
+	width: 900px;
+	height: 200px;
+	margin: 5px auto;
+}
+
+.box {
+	width: 200px;
+	height: 120px;
+	background-color: white;
+	float: left;
+	margin-right: 33px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: 300;
+	color: #3F3F3F;
+	line-height: 110px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+.box:hover {
+	background-color: #9c89f6;
+	color: white;
+	box-shadow: 0px 4px #6b54d3;
+	-moz-box-shadow: 0px 4px #6b54d3;
+	-webkit-box-shadow: 0px 4px #6b54d3;
+}
+
+#startReset:hover {
+	background-color: #9c89f6;
+	color: white;
+	box-shadow: 0px 4px #6b54d3;
+	-moz-box-shadow: 0px 4px #6b54d3;
+	-webkit-box-shadow: 0px 4px #6b54d3;
+}
+
+.box:active {
+	box-shadow: 0px 0px #6b54d3;
+	-moz-box-shadow: 0px 0px #6b54d3;
+	-webkit-box-shadow: 0px 0px #6b54d3;
+	top: 6px;
+}
+
+#startReset:active {
+	box-shadow: 0px 0px #6b54d3;
+	-moz-box-shadow: 0px 0px #6b54d3;
+	-webkit-box-shadow: 0px 0px #6b54d3;
+	bottom: 17px;
+}
+
+#box4 {
+	margin-right: 0;
+}
+
+#startReset {
+	width: 100px;
+	padding: 20px;
+	position: absolute;
+	top: 590px;
+	left: 510px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+#timeRemaining {
+	width: 175px;
+	padding: 20px;
+	position: absolute;
+	top: 590px;
+	left: 900px;
+	background-color: rgba(181, 235, 36, 0.75);
+	border-radius: 5px;
+	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+	/* visibility: hidden; */
+	display: none;
+}
+
+#gameOver {
+	height: 300px;
+	width: 600px;
+	background: linear-gradient(#f3ca6b, #f3706c);
+	background: -webkit-linear-gradient(circle, #fff, #ccc);
+	background: -0-linear-gradient(circle, #fff, #ccc);
+	background: -moz-linear-gradient(circle, #fff, #ccc);
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 160px;
+	left: 275px;
+	z-index: 2;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

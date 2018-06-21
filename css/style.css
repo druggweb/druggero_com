@@ -1,0 +1,21 @@
+#topbar {
+  padding: 10px;
+}
+
+#hamburger {
+  font-size: 50px;
+  padding-left: 25px;
+  color: darkviolet;
+}
+
+body {
+  background-color: rgb(234, 245, 255);
+}
+
+#footer-page {
+  background-color: #263238;
+}
+
+#footer-copyright {
+  background-color: #263238;
+}

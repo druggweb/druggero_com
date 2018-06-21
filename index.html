@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Material Win2</title>
+  </head>
+
+  <body>
+    <!-- TOP BAR DATE & COUNTDOWN -->
+    <div class="nav-wrapper purple darken-3">
+      <div class="row" id="topbar">
+        <div class="col m10">
+          <iframe src="http://free.timeanddate.com/clock/i4v8427p/n25/fn16/fs18/fcfff/tct/pct/ftb/pa10/tt0/td2/th1/ts1/tb4"
+            allowTransparency="true" frameborder="0" width="250" height="75">
+          </iframe>
+        </div>
+        <div class="col m2">
+          <iframe class="right" src="http://free.timeanddate.com/countdown/i5n9o8fg/n4869/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs100/szw320/szh135/tatCountdown%20To%20My/tacfff/tptTime%20After%20/tpcfff/matPostal%20Retirement/macfff/mptMy%20Retirement/mpcfff/iso2019-07-01T00:00:00"
+            allowTransparency="true" frameborder="0" width="190" height="75">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SIDENAV -->
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/img4.jpg">
+          </div>
+          <a href="#!">
+            <img class="circle" src="images/img5.jpg">
+          </a>
+          <a href="#!">
+            <span class="white-text name">John Doe</span>
+          </a>
+          <a>
+            <span class="white-text email">jdoe@gmail.com</span>
+          </a>
+        </div>
+      </li>
+      <li>
+        <a href="#!">
+          <i class="material-icons">dashboard</i>Dashboard</a>
+      </li>
+      <li>
+        <a href="#!">Posts</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="subheader" href="#!">Account Info</a>
+      </li>
+      <li>
+        <a class="waves-effect" href="#!">Logout</a>
+      </li>
+    </ul>
+    <a href="#!" data-activates="slide-out" class="button-collapse">
+      <i id="hamburger" class="material-icons">menu</i>
+    </a>
+
+    <!-- TEMPLATE TEST -->
+    <div class="container">
+      <br><br>
+      <h1 class="header center purple-text text-darken-4">Materialize Test Page</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" target="blank" id="download-button" class="btn-large waves-effect waves-light purple darken-4">Get Started</a>
+      </div>
+      <br>
+      <br>
+    </div>
+
+    <!-- Card Test 1 -->
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/sunset1.jpg">
+              <span class="card-title">Translate</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="word_translator/index.html" target="blank"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>An application that will translate a word into many languages. Created using vue.js and using the Yandex API.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/img4.jpg">
+              <span class="card-title">Findit</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="findit_pro/dist/index.html" target="blank"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>A Reddit application that will search for subjects in the Reddit website. Built with Parcel, Bootstrap and the Reddit API.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/sunset3.jpg">
+              <span class="card-title">Chuck Norris</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="parcelapp/dist/index.html" target="blank"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>An App for Chuck Norris Jokes. Built using Parcel.js and the API from The Internet Chuck Norris Database.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CARD PANELS & SHADOW -->
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card blue z-depth-2">
+            <div class="card-content white-text">
+              <p>Video Gallery</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="video_gallery/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a> 
+            </div> 
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card indigo z-depth-3">
+              <div class="card-content white-text">
+                <p>Photo Gallery</p>
+                <a class="btn-floating halfway-fab waves-effect waves-light red" href="photo_gallery/index.html" target="blank">
+                  <i class="medium material-icons">add</i>
+                </a> 
+              </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card teal accent-4 z-depth-4">
+            <div class="card-content white-text">
+              <p>Sortable Photo Gallery</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="photo_gallery_sortable/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card amber z-depth-3">
+            <div class="card-content white-text">
+              <p>Retirement Clock</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="event_countdown/index.html"target="blank">
+                <i class="medium material-icons">add</i>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card purple accent-3 z-depth-3">
+            <div class="card-content white-text">
+              <p>Post-It Notes</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="notes_postit_react/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card green accent-4 z-depth-4">
+            <div class="card-content white-text">
+              <p>Pixabay Image Finder</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="pixabay_images/build/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card deep-orange lighten-1 z-depth-4">
+            <div class="card-content white-text">
+              <p>Math Challenge Game</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="math_game/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card cyan z-depth-4">
+            <div class="card-content white-text">
+              <p>Vue World News App</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="vuenews/index.html" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card blue z-depth-2">
+            <div class="card-content white-text">
+              <p>Level Up Tutorials</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://www.leveluptutorials.com/" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card teal accent-4 z-depth-4">
+            <div class="card-content white-text">
+              <p>Ink Jot Notes</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="http://www.inkjot.win/users/login" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card purple darken-3 z-depth-4">
+            <div class="card-content white-text">
+              <p>mLab Cloud MongoDB</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://mlab.com/login/" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card green accent-4 z-depth-4">
+            <div class="card-content white-text">
+              <p>W3Schools Web Dev Site</p>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://www.w3schools.com/" target="blank">
+                <i class="medium material-icons">add</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+    <!-- FOOTER -->
+    <footer class="page-footer" id="footer-page">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h5 class="grey-text text-lighten-3">About Me</h5>
+            <p class="grey-text text-lighten-3">I'm into when I have the time, photography, web development, web design, print design and Apple products.</p>
+          </div>
+          <div class="col s12 m4 offset-m2">
+            <h5 class="grey-text text-lighten-3">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="http://www.inkjot.win" target="blank">InkJot Notes</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="http://www.localmacon.com" target="blank">LocalMacon.com</a>
+
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="http://www.ruggerod.com">ruggerod.com</a>
+
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="http://www.ruggerod.me">ruggerod.me</a>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright" id="footer-copyright">
+        <div class="container">
+          Copyright &copy; druggero2018
+          <a href="#" class="grey-text text-lighten-3 right">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--IMPORT JQUERY BEFORE MATERIALIZE.JS-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.dropdown-button').dropdown({
+          constrainWidth: false,
+          hover: true,
+          belowOrigin: true,
+          alignment: 'left'
+        });
+  
+        // JAVASCRIPT START HERE //
+        $('.button-collapse').sideNav({
+          menuWidth: 300,
+          edge: 'left',
+          closeOnClick: false,
+          draggable: true,
+          onOpen: function () { console.log('Menu Open') },
+          onClose: function () { console.log('Menu Close') }
+        });
+      });
+    </script>
+  
+  </body>
+
+</html>

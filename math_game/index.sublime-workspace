@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addItem〔function〕"
+			],
+			[
+				"compl",
+				"completed"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"par",
+				"parent〔variable〕"
+			],
+			[
+				"pare",
+				"parentNode"
+			],
+			[
+				"remove",
+				"removeItem"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"butto",
+				"buttons〔variable〕"
+			],
+			[
+				"comp",
+				"completeSVG〔variable〕"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"heig",
+				"min-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"border-botto",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-bott",
+				"border-bottom-left-radius"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"time",
+				"timeRemaining"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"meta",
+				"meta\tTag"
+			],
+			[
+				"site",
+				"siteUrl"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"bookm",
+				"bookmarksresults〔variable〕"
+			],
+			[
+				"book",
+				"bookmarks〔variable〕"
+			],
+			[
+				"bookmark",
+				"bookmarks"
+			],
+			[
+				"filt",
+				"filterValue"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"scri",
+				"script"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dominick5k/OneDrive/todo_list/index.html",
+		"/Users/dominick5k/OneDrive/todo_list/css/style.css",
+		"/Users/dominick5k/OneDrive/todo_list/js/main.js",
+		"/Users/dominick5k/OneDrive/todo_list/icons/done_icon.svg",
+		"/Users/dominick5k/OneDrive/todo_list/icons/remove_icon.svg",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_tag.sublime-settings",
+		"/Users/dominick5k/OneDrive/icons/add_icon.svg",
+		"/Users/dominick5k/OneDrive/Maths Game (JS)/javascript.js",
+		"/Users/dominick5k/OneDrive/Maths Game (JS)/styling.css",
+		"/Users/dominick5k/OneDrive/Maths Game (JS)/index.html",
+		"/Users/dominick5k/OneDrive/bookmarker/js/main.js",
+		"/Users/dominick5k/OneDrive/bookmarker/index.html",
+		"/Users/dominick5k/OneDrive/bookmarker/css/style.css",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/dominick5k/Documents/isotope_project/03_06_Finished/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_06/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_06/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/03_05/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/03_05/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_04/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/03_04/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_04/styles.css",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/Boxy Theme/README.md",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/ReadmePlease/README.md",
+		"/Users/dominick5k/Documents/isotope_project/03_02/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/03_02/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_02/styles.css",
+		"/Users/dominick5k/Documents/isotope_project/03_01/index.html",
+		"/Users/dominick5k/Documents/isotope_project/03_01/styles.css",
+		"/Users/dominick5k/Documents/isotope_project/03_01/JS/isotope.settings.js",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/Users/dominick5k/Documents/isotope_project/02_08/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_08/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_08_Finished/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_07/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_07/style.css",
+		"/Users/dominick5k/Documents/isotope_project/02_07/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_06/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_06/style.css",
+		"/Users/dominick5k/Documents/isotope_project/02_06/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_05/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_05/style.css",
+		"/Users/dominick5k/Documents/isotope_project/02_05/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_03/JS/libs/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_03/index.html",
+		"/Users/dominick5k/Documents/isotope_project/02_03/style.css",
+		"/Users/dominick5k/Documents/isotope_project/02_03/JS/isotope.settings.js",
+		"/Users/dominick5k/Documents/isotope_project/02_02/index.html",
+		"/Users/dominick5k/Desktop/roux_website/index.htm",
+		"/Users/dominick5k/Desktop/roux_website/500.php",
+		"/Users/dominick5k/Desktop/roux_website/about/about.htm",
+		"/Users/dominick5k/Desktop/roux_website/spotlight.htm",
+		"/Users/dominick5k/Desktop/roux_website/programs/programs.htm",
+		"/Users/dominick5k/Desktop/roux_website/404.shtml",
+		"/Users/dominick5k/Documents/Sublime Text Projects/druggero_com/index.html",
+		"/Users/dominick5k/Library/Application Support/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/Users/dominick5k/Documents/Sublime Text Projects/druggero_com/video_gallery/index.html",
+		"/Users/dominick5k/Documents/Sublime Text Projects/druggero_com/styles/w3.css"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"addItemTodo",
+			"dataO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"addItemToDOM"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"404.shtml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
