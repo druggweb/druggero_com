@@ -88,44 +88,38 @@
     <!-- Cards Top Row with Images -->
     <div class="container">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 l4">
           <div class="card">
             <div class="card-image">
-              <img src="images/sunset1.jpg">
+              <img src="images/sunset1.jpg" alt"" class="responsive-img materialboxed">
               <span class="card-title">Translate</span>
               <a class="btn-floating halfway-fab waves-effect waves-light red" href="word_translator/index.html" target="blank">
                 <i class="material-icons">add</i>
               </a>
             </div>
-            <div class="card-content">
-              <p>An application that translates a word into many languages. Created with vue.js and the Yandex API.</p>
-            </div>
+            
           </div>
         </div>
         
-        <div class="col s12 m4">
+        <div class="col s12 l4">
           <div class="card">
             <div class="card-image">
-              <img src="images/img4.jpg">
+              <img src="images/img4.jpg" alt"" class="responsive-img materialboxed">
               <span class="card-title">Findit</span>
               <a class="btn-floating halfway-fab waves-effect waves-light red" href="findit_pro/dist/index.html" target="blank"><i class="material-icons">add</i></a>
             </div>
-            <div class="card-content">
-              <p>A Reddit app that searches the Reddit website. Built with Parcel, Bootstrap and the Reddit API.</p>
-            </div>
+            
           </div>
         </div>
         
-        <div class="col s12 m4">
+        <div class="col s12 l4">
           <div class="card">
             <div class="card-image">
-              <img src="images/sunset3.jpg">
+              <img src="images/sunset3.jpg" alt"" class="responsive-img materialboxed">
               <span class="card-title">Chuck Norris</span>
               <a class="btn-floating halfway-fab waves-effect waves-light red" href="parcelapp/dist/index.html" target="blank"><i class="material-icons">add</i></a>
             </div>
-            <div class="card-content">
-              <p>An App for Chuck Norris Jokes. Built with Parcel.js and the API at The Internet Chuck Norris Database.</p>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -320,6 +314,7 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <script>
+      // JAVASCRIPT START HERE //
       $(document).ready(function () {
         $('.dropdown-button').dropdown({
           constrainWidth: false,
@@ -328,7 +323,6 @@
           alignment: 'left'
         });
   
-        // JAVASCRIPT START HERE //
         $('.button-collapse').sideNav({
           menuWidth: 300,
           edge: 'left',
@@ -336,6 +330,10 @@
           draggable: true,
           onOpen: function () { console.log('Menu Open') },
           onClose: function () { console.log('Menu Close') }
+        });
+
+        $(document).ready(function () {
+          $('.materialboxed').materialbox();
         });
       });
     </script>
