@@ -140,6 +140,24 @@
       </div>
     </div>
   </div>
+
+  <div class="carousel">
+    <a class="carousel-item" href="./img/smithsonian_cars1.jpg">
+      <img src="./img/smithsonian_cars1.jpg">
+    </a>
+    <a class="carousel-item" href="#two!">
+      <img src="./img/smithsonian_cars2.jpg">
+    </a>
+    <a class="carousel-item" href="#three!">
+      <img src="./img/smithsonian_cars3.jpg">
+    </a>
+    <a class="carousel-item" href="#four!">
+      <img src="./img/smithsonian_cars4.jpg">
+    </a>
+    <a class="carousel-item" href="#five!">
+      <img src="./img/smithsonian_cars5.jpg">
+    </a>
+  </div>
   
   <!-- Compiled and minified JavaScript and jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -154,6 +172,13 @@
   <script>
     $(document).ready(function () {
       $('.modal').modal();
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel({
+        indicators: true,
+      });
     });
   </script>
 
