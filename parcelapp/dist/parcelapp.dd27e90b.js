@@ -55,7 +55,7 @@ var e=require("process"),t=require("./utils"),r=require("./helpers/normalizeHead
 },{"./utils":10,"./helpers/bind":12,"./core/Axios":13,"./defaults":11,"./cancel/Cancel":14,"./cancel/CancelToken":15,"./cancel/isCancel":16,"./helpers/spread":17}],8:[function(require,module,exports) {
 module.exports=require("./lib/axios");
 },{"./lib/axios":9}],7:[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.jokes=void 0;var e=require("axios"),t=o(e);function o(e){return e&&e.__esModule?e:{default:e}}var r=exports.jokes={getOne:function(){return t.default.get("http://api.icndb.com/jokes/random").then(function(e){return e.data.value.joke})}};
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.jokes=void 0;var e=require("axios"),t=o(e);function o(e){return e&&e.__esModule?e:{default:e}}var r=exports.jokes={getOne:function(){return t.default.get("https://api.icndb.com/jokes/random").then(function(e){return e.data.value.joke})}};
 },{"axios":8}],6:[function(require,module,exports) {
 "use strict";var e=require("./jokes");e.jokes.getOne().then(function(e){document.getElementById("joke").innerHTML=e});
 },{"./jokes":7}]},{},[6])

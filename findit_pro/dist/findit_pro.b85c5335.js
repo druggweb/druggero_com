@@ -85,7 +85,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = {
   search: function search(searchTerm, searchLimit, sortBy) {
-    return fetch("http://www.reddit.com/search.json?q=" + searchTerm + "&sort=" + sortBy + "&limit=" + searchLimit).then(function (res) {
+    return fetch("https://www.reddit.com/search.json?q=" + searchTerm + "&sort=" + sortBy + "&limit=" + searchLimit).then(function (res) {
       return res.json();
     }).then(function (data) {
       return data.data.children.map(function (data) {

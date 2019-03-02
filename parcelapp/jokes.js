@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const jokes = {
   getOne: function () {
-    return axios.get('http://api.icndb.com/jokes/random')
+    return axios.get('https://api.icndb.com/jokes/random')
       .then(res => res.data.value.joke);
   }
 }
